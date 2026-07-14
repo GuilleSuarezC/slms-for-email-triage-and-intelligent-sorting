@@ -1,0 +1,63 @@
+# ============================================================================
+#  Configuración central del pipeline. Todos los scripts leen este archivo.
+# ============================================================================
+
+seed: 42
+
+data:
+  csv_path: "email_dataset.csv"
+  sep: ";"
+  text_col: "email_corpus"      # ÚNICA columna de entrada
+  label_col: "class_label"      # ÚNICA columna objetivo
+  lowercase_labels: false       # normaliza solo trim por defecto; activa si quieres minúsculas
+  test_size: 0.20               # 20% holdout final (no se toca durante el entrenamiento)
+  min_per_class_warn: 5         # avisa si alguna clase tiene menos muestras que esto
+
+model:
+  # -------------------------------------------------------------------------
+  #  Pediste Qwen2.5-VL-7B y lo dejo como valor por defecto para respetar el
+  #  plan. PERO ojo: es un modelo *multimodal* (visión+texto). Para clasificar
+  #  texto puro, `Qwen/Qwen2.5-7B-Instruct` (solo texto) es más ligero, igual
+  #  de bueno y, sobre todo, exporta a GGUF para LM Studio SIN complicaciones.
+  #  El export de VL a GGUF es problemático (ver docs/EXPORT_GGUF.md).
+  #
+  #  Para cambiar a la variante de texto recomendada, solo edita estas 2 líneas:
+  #     id: "Qwen/Qwen2.5-7B-Instruct"
+  #     is_vl: false
+  # -------------------------------------------------------------------------
+  id: "Qwen/Qwen2.5-7B-Instruct"
+  is_vl: false
+  load_in_4bit: true            # cuantización QLoRA; pon false si tienes VRAM de sobra
+  max_seq_len: 1024             # presupuesto total de tokens (prompt + etiqueta)
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules: ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+
+train:
+  epochs: 3
+  lr: 0.0002
+  per_device_batch_size: 1
+  grad_accum_steps: 16          # batch efectivo = 1 * 16 = 16
+  warmup_ratio: 0.03
+  weight_decay: 0.0
+  logging_steps: 10
+  bf16: false                    # usa bf16 en GPUs Ampere+; cambia a fp16 si tu GPU es antigua
+
+cv:
+  enabled: true
+  folds: 5                      # OJO: con k=5 entrenas el 7B CINCO veces. Baja a 3 o desactiva
+                                # (enabled: false) si solo quieres el modelo final.
+  cv_epochs: 1                  # epochs reducidos durante CV para estimar más barato
+
+infer:
+  max_new_tokens: 16            # la etiqueta es corta; no hace falta más
+  greedy: true                  # determinista, sin sampling
+
+paths:
+  output_dir: "outputs"
+  labels_file: "outputs/labels.json"
+  final_adapter_dir: "outputs/final_adapter"
+  merged_dir: "outputs/merged_model"

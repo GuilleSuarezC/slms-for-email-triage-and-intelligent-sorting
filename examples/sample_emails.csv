@@ -1,0 +1,135 @@
+email_id;subject;email_corpus;class_label;secondary_label;is_multi_intent;is_ambiguous;is_spam;language;tone;sender_profile;email_length;noise_level;channel;temperature;top_p;top_k;seed;model_assigned;generation_time_s;prompt_used;timestamp
+30c000c9-a81;Urgent Matter - Change of Bank Account Details;"BODY: I am writing to you today because I have encountered a serious issue regarding my pension payments. After recently moving house and updating the bank account where my pension is deposited, it seems there was some miscommunication or oversight somewhere along the process.
+
+I first became aware something went wrong when I noticed that my recent utility bill payment had not been processed through my new account as expected. Upon closer examination, I realized this because my direct debit facility appears to have defaulted on several payments recently instead of going smoothly through the updated account. This was confirmed by a statement from my bank showing no incoming transactions from the usual providers.
+
+As a pensioner relying solely on these regular payments for living expenses, the uncertainty has been deeply concerning and frankly distressing. I am now worried that if this continues, I may face bounced cheques or late fees which could put me in significant financial difficulty given how fixed my income is at this stage of retirement.
+
+I must emphasize how critically important it is to resolve this matter immediately with no further delay on the account changes being fully implemented. Please look into this urgently and let me know what steps you are taking, because I need reassurance that these payments will continue without interruption from now onwards. Thank you for your prompt attention.";cambio_domiciliacion;;False;False;False;en;desesperado;jubilado;medio;limpio;app_movil;0.78;0.66;46;51854;deepseek/deepseek-r1-0528-qwen3-8b;5.99;plantilla_1;2026-05-10T23:02:27.949936
+aac703f6-776;Solicitud Formal de Cambio de Titularidad del Contrato Energético CTR-772190 en Calle del Olivo, 45;"Estimados Señores de Iberdrola Servicios Energéticos, Departamento de Atención al Cliente,
+
+Me dirijo a ustedes por este medio para solicitar formalmente y con la mayor diligencia posible el proceso de cambio de titularidad del servicio energético asociado al contrato número CTR-772190. La presente comunicación tiene como objetivo transicionar legalmente la responsabilidad contractual y operativa de esta instalación residencial desde la actual titular, Ana García Pérez, hasta el nuevo titular, Juan Martín López.
+
+Detallo a continuación los datos completos que rigen actualmente este servicio y los datos del futuro titular para asegurar una gestión administrativa sin inconvenientes:
+Contrato Actual: CTR-772190
+Dirección del Servicio: Calle del Olivo, 45, Piso 3ª, Madrid
+Titular Anterior (Saliente): Ana García Pérez, DNI 12345678A. Su colaboración ha sido constante hasta la fecha de esta solicitud.
+Nuevo Titular (Entrante): Juan Martín López, DNI 98765432B. El nuevo titular está plenamente dispuesto a asumir todas las responsabilidades inherentes al contrato.
+
+Para facilitar este proceso y evitar cualquier interrupción en el suministro o discrepancia en la facturación, adjunto a esta solicitud (o pondré a disposición en sus oficinas) la documentación necesaria:
+1. Copia del DNI de Ana García Pérez.
+2. Copia del DNI de Juan Martín López.
+3. Última factura de suministros a nombre de Ana García Pérez.
+4. Escritura o contrato de arrendamiento que acredite la residencia actual en Calle del Olivo, 45.
+
+Considerando la complejidad y el detalle inherente al cambio de titularidad, es crucial establecer con claridad los puntos logísticos y administrativos:
+
+1. Fecha Efectiva del Cambio: Solicitamos que la fecha efectiva para la transferencia de titularidad sea lo antes posible, idealmente no más tarde del 25 de noviembre de 2023, ya que el nuevo titular requiere disponer del servicio bajo su nombre desde esa fecha.
+2. Facturación y Contabilidad: Es imperativo que todas las facturaciones subsiguientes a la fecha efectiva se emitan exclusivamente a nombre de Juan Martín López (DNI 98765432B), utilizando los datos bancarios que nos serán indicados en un proceso posterior. Solicitamos una confirmación escrita sobre el procedimiento para gestionar cualquier ajuste o liquidación pendiente entre ambas titularidades.
+3. Medición del Consumo: Rogamos encarecidamente confirmar si será necesario realizar alguna lectura de contadores final por parte de la antigua titular y si la nueva titular asumirá la responsabilidad de futuras lecturas periódicas.
+
+Además, quisiera plantear algunas consultas secundarias para asegurar una transición completa. Por un lado, ¿existe algún requisito específico que el nuevo titular debe cumplir en relación con pólizas o seguros asociados al suministro? Por otro lado, dado que se trata de una vivienda en régimen de propiedad privada, agradezco que me confirmen si este proceso implica alguna revisión de la potencia contratada actual (medida en kW) y si esta medida es óptima para las necesidades actuales del nuevo residente.
+
+Entendiendo que el cambio de titularidad requiere varios pasos internos y la verificación de múltiples documentos legales, les ruego que me informen sobre un plazo estimado para la finalización exitosa de este trámite. Si fuera necesario acudir a una oficina física en Madrid, por favor indíquenme los horarios de atención específicos para estos procesos administrativos complejos.
+
+Pueden contactarme directamente al teléfono 600 111 222 o responder a esta dirección de correo electrónico. Estoy completamente disponible para cualquier aclaración adicional que puedan requerir sobre la documentación aportada o sobre las implicaciones legales del cambio.
+
+Agradezco de antemano su profesionalismo y diligencia en el manejo de este proceso tan importante, esperando una confirmación por escrito con los pasos a seguir y un número de expediente de gestión lo antes posible.
+
+Atentamente,
+
+Juan Martín López
+DNI 98765432B
+Teléfono: 600 111 222";cambio_titular;;False;False;False;es;cortés;particular_enfadado;muy_largo;limpio;email_directo;0.77;0.67;41;36701;google/gemma-4-e4b;16.07;plantilla_2;2026-05-10T23:02:44.021435
+c4088e93-dd3;Problema con contrato empresarial - Gestión de suministro;"BODY:
+Estoy muy enfocado y necesito que me soluciones esto rapido. Mi DNI es 56789012A, y tengo un problema con el contrato TCK-4321.
+
+Hace varios meses firmé el contrato para la gestión de contratos de suministro en mi empresa, pero ahora ha habido una equivocación tremenda. En la factura del mes pasado, que es importante porque estamos en un polígono industrial y los cálculos deben ser exactos, aparece un error: dice abastecedor_facturacion, pero debería ser abastecedor_industrial.
+
+No puedo permitir estos errores por varias razones. Primero, no tenemos margen para perder dinero así; segundo, esto afecta a nuestro gran consumo diario que es constante y controlado. Si no lo solucionan ahora mismo con un email corto sin rodeos, me voy al catastro_empresa.
+
+Les escribo desde mi dirección física exacta: C/ Inventada 123 - Polígono Tecnológico Industrial de Madrid número 456789. Necesito que pongan el corrector en la factura del mes pasado y además que no haya errores en el futuro con los suministros.
+
+Si no me responden esta consulta_empresa inmediatamente, voy a tener problemas serios porque estoy pagando un importe demasiado alto automáticamente cada mes por estos conceptos_factura.";contrato_empresarial;factura_error;True;False;False;es;desesperado;particular_enfadado;medio;moderado;webform;0.78;0.39;77;96383;deepseek/deepseek-r1-0528-qwen3-8b;7.14;plantilla_3;2026-05-10T23:02:51.160889
+11f9b2c5-d7e;WHERE IS THE ENERGY SAVINGS PLAN FOR ACCOUNT 6743B!!;"BODY:
+I am absolutely furious about this bill! I just got my statement and it says $189.50 for this month? ARE YOU SERIOUS? My household is tiny, barely even a two bedroom apartment and we are SO careful with the power usage. It feels like you people make it impossible to live efficiently!
+
+I need answers NOW about reducing our energy consumption. We cannot keep paying these insane amounts every single month, especially since my last bill was so high after I finally got those LED bulbs installed. What kind of concrete steps can you give me? Seriously, talk to me about efficiency audits or something because this current rate is UNACCEPTABLE!
+
+I live in Miami and we are trying really hard to be sustainable but the cost structure makes no sense. My account number is 6743B and my ID is 821-459-A. I demand an immediate breakdown of where all this energy usage is coming from. If you can't offer a clear, practical plan for lowering our consumption costs immediately, then we need to talk about switching providers. This billing process needs fixing! FIX IT NOW!</blockquote>";consulta_eficiencia;;False;False;False;en;urgente;particular_enfadado;medio;moderado;webform;0.93;0.51;75;96294;google/gemma-4-e4b;7.58;plantilla_4;2026-05-10T23:02:58.737284
+4c53a421-350;AVISO DE CORTE DE SUMINISTRO TRX123456789C | DNI 12345678 - Caducidad el 01/09;"Estimada Compañía Gestora,
+
+Refiero al suministro de electricidad con CUPS TRX123456789C, a mi nombre como titular (conforme contrato Número XCV-784561). Actualmente se ha notificado corto de energía sin justificación.
+
+El corte actual no solo interrumpe servicios esenciales para el mantenimiento básico en mi hogar (ubicado en Calle Principal, 23), sino que también entraña serias consecuencias económicas y operativas. Temo que este incumplimiento pueda derivarse en multas de consumo.
+
+Reitero la exigencia de reestablecimiento inmediato conforme a lo establecido en el artículo 47 del contrato, sin nuevos plazos dilatados. Si persiste esta falta, consideraré todas las acciones legales aplicables para defensa contractual y económica justa.
+
+Sin cortes programados ni impagos documentados, este corte es una violación clara de derechos pactados en el sistema tarifario vigente. Cualquier reticencia debe ser resuelta prontamente por vías administrativas olegales.
+
+Consejo: verifique los registros del servicio antes de cualquier acción legal encarecida más tarde.
+
+Recibido con fecha límite para solución 15/08/2023.";corte_suministro;;False;False;False;es;urgente;abogado;corto;limpio;respuesta_cadena;0.87;0.31;58;61401;deepseek/deepseek-r1-0528-qwen3-8b;9.63;plantilla_5;2026-05-10T23:03:08.367852
+0d0fc9e4-9f3;URGENTE Solicitud de documentación referente al consumo en la Calle de las Flores 12;"BODY: Estimados señores de Energía Total S.A.,
+
+Espero que este correo electrónico les encuentre bien y que todo el proceso interno vaya según lo planeado, aunque debo confesarles que me resulta necesario ponerme en contacto con ustedes una vez más por un asunto que, francamente, ha resultado MUCHO mas complicado de lo que imaginaba inicialmente. Todo empezó la semana pasada, o creo que fue a principios del mes de octubre, cuando estuve tratando de tramitar unas ayudas económicas para mi hermana menor. Como sabrán, estos trámites administrativos son un auténtico laberinto burocrático; uno necesita tener en regla absolutamente todo: desde el último contrato firmado hasta demostrar la antigüedad y el consumo energético residencial durante varios períodos fiscales.
+
+Resulta que, al llegar a la fase de presentación documental ante las autoridades pertinentes (hablo específicamente del Ayuntamiento, no se preocupen), me indicaron con bastante firmeza —y sí, me quedé un poco PERPLEJO— que necesitaban un certificado detallado y fehaciente sobre el consumo energético registrado en mi domicilio actual, ubicado en la Calle de la Paz número 45 B. Me han pedido los documentos para verificar mis ingresos y solvencia de manera integral.
+
+Al principio pensé que tal cosa era algo obvio, o quizás que yo misma lo recordaba tener archivado en casa. Pero no es así; después de revisar mi caja fuerte virtual, me di cuenta de que simplemente jamás se ha generado ese resumen ejecutivo consolidado del consumo histórico más allá de las facturas mensuales habituales. De hecho, tengo aquí varias copias de facturación con el titular a nombre de Elena Rojas Méndez y DNI 12345678A, pero no sirven para lo que necesitan.
+
+Por tanto, y dado que el plazo límite para presentar estos papeles es muy apretado —si me equivoco, la fecha límite era el pasado miércoles— les ruego encarecidamente, con todo respeto pero también con cierta urgencia palpable, que pudieran emitirme un certificado de consumo completo o una copia del contrato de instalación original. Me harían MUCHÍSIMO favor si pudieran enviarlo digitalmente a esta misma dirección. Cualquier ayuda que puedan dispensarme en este asunto será de vital importancia para mí y no quiero tener ningún contratiempo con mis gestiones administrativas.
+
+Quedo atenta a vuestra respuesta lo antes posible, gracias por su atención y comprensión Ante todo.";solicitud_certificado;;False;False;False;es;cortés;particular_enfadado;largo;moderado;app_movil;0.9;0.65;73;27093;google/gemma-4-e4b;10.53;plantilla_1;2026-05-10T23:03:18.900427
+df4e12a7-7c1;Incidencia Apagón - Contrato CT-2019-0534;"Estimado Soporte Técnico,
+
+Refiero la siguiente incidencia de apagón en el punto de suministro con CUPS 876.543.211, ocurrida el día 22/07/2023.
+
+**Datos del cliente:**
+DNI: 49620184A
+Nombre: Ana Gómez Fernández
+Dirección: Oficinas Centrales InnovaciónTech Avda. Tecnología S/N, Parque Empresarial de la Innovación
+
+**Detalles incidencia:**
+El apagón comenzó a las 15:30 horas del viernes 22/07/2023.
+Duración aproximada: 90 minutos (hasta las 16:45).
+Afectado el sistema de refrigeración en la sala principal, con una temperatura máxima registrada de 32°C.
+
+**Contacto cliente:**
+Teléfono: +34 914.785.299
+
+Se solicita que se investigue la causa y proponga una fecha estimada para la realización del mantenimiento preventivo correspondiente, considerando el riesgo de repetición similar en los próximos meses.
+
+Gracias por su atención.
+Atentamente,
+Ana Gómez";incidencia_apagón;;False;False;False;es;técnico;cliente_empresarial;medio;limpio;app_movil;0.84;0.56;69;59608;deepseek/deepseek-r1-0528-qwen3-8b;7.66;plantilla_2;2026-05-10T23:03:26.558793
+0d8b1420-ce3;Solicitud urgente de actualización de datos bancarios para domiciliación de facturas - TCK-98765;"Estimados gestores de cuentas,
+
+Me dirijo a ustedes en calidad de autónomo registrado con DNI JRS75A1234B. Hago referencia al historial de pagos asociado a mi cuenta y, tras una revisión interna de nuestros procedimientos financieros, hemos detectado que los datos bancarios previamente cargados para la domiciliación de las facturas emitidas hasta la fecha no son los correctos o están desactualizados en el sistema operativo.
+
+Por ello, el motivo actual de este correo es formalizar la sustitución completa del beneficiario bancario. A partir de ahora, toda la gestión de cobro debe realizarse utilizando la siguiente información: IBAN ES91210000123456789012 y BIC COBADEFFXXX.
+
+Dado que esta es una modificación crítica para el flujo operativo, les ruego encarecidamente que este cambio se aplique de manera efectiva en la siguiente liquidación programada (fecha estimada: 25/octubre/2024). Agradecería mucho recibir una confirmación por escrito y técnica de que mi ficha cliente ha sido actualizada correctamente con estos nuevos datos, vinculándolo al ticket TCK-98765.
+
+Pueden localizarme en nuestra dirección física Calle de la Luna, 45, Piso 3º B, 28006 Madrid, si fuera necesario algún trámite presencial adicional.
+
+Atentamente,
+
+Javier Rodríguez Soto";cambio_domiciliacion;;False;False;True;es;técnico;autónomo;largo;limpio;email_directo;0.66;0.77;67;59444;google/gemma-4-e4b;9.85;plantilla_3;2026-05-10T23:03:36.408997
+cfd72e37-a87;¡Corte de Luz Urgente!;"Hola, me llamo a Julián y por aquí en mi casa en Villanueva de Córdoba se ha cortado todo el suministro eléctrico. Es lo más raro que pasa desde que me jubile.
+
+He comprobado la factura del mes pasado y ya está carísima: unos 350,47 euros. No llego a fin de mes con tantos gastos y ahora encima se corta el servicio sin avisar. Aunque intenté pagar antes lo menos posible, parece que no ha sido suficiente.
+
+¿No hay forma de hacer una gestión especial? Yo llevo mucho tiempo aquí y me duele un montón en este momento. Necesito electricidad para la nevera y lo demás.
+
+P.D.: Mi CUPS es 32075938B, eso seguro que no falta en el aviso.";corte_suministro;consulta_autoconsumo;True;False;False;es;informal;jubilado;corto;leve;reenvio_tercero;0.92;0.46;60;18595;deepseek/deepseek-r1-0528-qwen3-8b;6.23;plantilla_4;2026-05-10T23:03:42.637295
+b5189f6b-eb4;Reclamación de conceptos facturados - Contrato XYZ901;BODY: Por medio de la presente, reclamo la factura N° 45982 por el periodo mayo-junio. Se ha aplicado incorrectamente un cargo de Servicio Premium y la tarifa por consumo supera el promedio histórico sin justificación técnica. Adjunto lectura del contador marca SmartFlow SN: SF773A. Solicito revisión urgente e ajuste de los conceptos indebidos.;reclamacion_factura;;False;False;False;es;técnico;autónomo;muy_corto;limpio;respuesta_cadena;0.94;0.62;48;69408;google/gemma-4-e4b;5.52;plantilla_5;2026-05-10T23:03:48.158274
+d7878d9d-46e;Quiero darme de baja del suministro electrico;"BODY:
+Bueno pues esto es un lio total. Estoy jubilado hace ya unos cuadros y me encanta pasear por el parque cerca de mi casa en Villaverde, ver el partido de su majestad con mis nietos pa' no aburrirme. Pero tengo que hablar del tema chungo de la luz.
+
+Me diste cuenta de lo del suministro cuando llegó la factura y veía la letra pequeña otra vez. Es curioso porque ya no vivo allí, pero bueno, el piso sigue igual y mi nombre aparece como titular en las cosas. A ver, es que hace unos dias compré el coche nuevo a Juan Martínez, el primo de mi hija, y ahora este mismo chico dice ""Abuelo, la luz está cortada pa' nuestra casa nueva"" y yo le digo ""¿qué? pero yo ya me fui pa' el piso del centro"". Resulta que el contrato sigue en mi nombre oficial. Así que vamos a lo nuestro: con DNI 47681023L, este trámite no es para mí como titular, sino pa' Juan Martínez porque ya mudé todo y don Ramón dejó de ser dueño.
+
+Esto es un cacharro total, sobre todo pa' que no pague nada. Quiero darme de baja el suministro ahora mismo porque ya no tengo nada que ver con eso. Si quieres mirar la numerología o lo demás, pero la verdad es que no le di mucha importancia a los números: 476-81023-L era mi DNI pa' empezar.
+
+Así que por favor, cancelen todo esto de una vez y sin meterse con mis cosas. No necesito nada más de energía pa' estar en el parque conversando o pa' no helarse los pies.";baja_contrato;;False;False;False;es;informal;jubilado;largo;alto;app_movil;0.72;0.57;37;14831;deepseek/deepseek-r1-0528-qwen3-8b;8.45;plantilla_1;2026-05-10T23:03:56.603630
+362870ff-bc7;¡URGENTE! Problema con la luz en mi casa - Contrato CTR-7721;BODY: Por favor ayudenme que me van a cortar la luz el día de mañana 28/10/2024 si no pagan lo de los 532,50€. Me llamaron y dicen que es un pago atrasado. Mi DNI es A6789B0C y estoy en Calle del Sol 12. Porfa, llamen al 915552333 ya mismo o va a pasar algo grave con mi familia.;phishing_energia;;False;True;True;es;desesperado;cliente_empresarial;muy_corto;alto;webform;0.91;0.57;53;7081;google/gemma-4-e4b;3.98;plantilla_2;2026-05-10T23:04:00.587451

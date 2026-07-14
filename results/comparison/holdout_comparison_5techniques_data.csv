@@ -1,0 +1,11 @@
+technique,accuracy,f1_macro,n_test,split_ratio
+"Classical ML
+(TF-IDF+SVM)",0.8357,0.7905,6000,70/30
+"Embedding k-NN
+(MiniLM)",0.497,0.4264,6000,70/30
+"Zero-shot
+SLM",0.6681666666666667,0.597203448874835,6000,70/30
+"Few-shot
+SLM (1-shot)",0.6723333333333333,0.6202005699985672,6000,70/30
+"LoRA
+Fine-tuning",0.883,0.8542418112477155,6000,70/30

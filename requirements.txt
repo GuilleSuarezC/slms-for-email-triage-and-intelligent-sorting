@@ -1,0 +1,48 @@
+# ============================================================================
+#  Core dependencies (CPU) — reproduce the classical-ML tracks, the embedding
+#  baseline, the synthetic-corpus generator client, and all metrics/plots.
+#
+#  These are the only packages needed for the offline, CPU-reproducible parts
+#  of the pipeline. The LoRA fine-tuning stack (GPU) is in requirements-lora.txt.
+#
+#  Install:  pip install -r requirements.txt
+#  Version floors are taken from the per-module requirement files in the
+#  original project; newer compatible releases are expected to work.
+# ============================================================================
+
+# --- Data handling ----------------------------------------------------------
+pandas>=2.2.0
+numpy>=1.26
+scipy>=1.11
+
+# --- Classical ML baselines (Tracks A and B) --------------------------------
+scikit-learn>=1.5.0
+joblib>=1.3
+optuna>=3.6           # hyper-parameter search (binary spam/ham track)
+lightgbm>=4.0         # gradient-boosting baseline (binary spam/ham track)
+gensim>=4.3           # averaged Word2Vec representation
+
+# --- Embedding retrieval baseline (Sentence-BERT + ChromaDB) ----------------
+chromadb>=0.5.0
+sentence-transformers>=2.7
+
+# --- Synthetic-corpus generation + zero/few-shot SLM clients ----------------
+# (talk to a LOCAL LM Studio server; no cloud API is used)
+requests>=2.31.0
+lmstudio>=1.0.0
+openai>=1.50.0        # OpenAI-compatible client pointed at the local LM Studio URL
+
+# --- Dataset download (real Kaggle spam/ham corpus, Track A) -----------------
+# spam_classifier_pipeline.py uses the official `kaggle` client (kaggle.api).
+# It needs credentials in ~/.kaggle/kaggle.json OR KAGGLE_USERNAME/KAGGLE_KEY.
+kaggle>=1.6
+
+# --- Configuration, progress, plots, monitoring -----------------------------
+pyyaml>=6.0
+tqdm>=4.66
+matplotlib>=3.8
+seaborn>=0.13
+psutil>=5.9.0
+
+# --- Optional local inference demo (LoRA Streamlit app) ---------------------
+streamlit>=1.40.0

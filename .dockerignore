@@ -1,0 +1,47 @@
+# Version control
+.git
+.gitignore
+
+# Python caches / envs
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+*.key
+*.pem
+kaggle.json
+TokenKaggle.png
+
+# Large data — mounted at runtime instead of baked into the image
+# (README shows:  -v "$(pwd)/data:/app/data")
+data/
+*.parquet
+# (examples/*.csv is kept on purpose — the in-container smoke test reads it)
+
+# Weights / vector stores / outputs
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+*.pkl
+chroma_db*/
+.embedding_cache/
+outputs/
+inference_results*/
+*.zip
+
+# Reference results and images are not needed to run the pipeline
+results/
+*.png
+
+# Docs / OS
+.DS_Store
+.vscode/
+.idea/

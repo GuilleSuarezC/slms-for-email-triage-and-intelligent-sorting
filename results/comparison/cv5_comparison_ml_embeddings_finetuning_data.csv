@@ -1,0 +1,7 @@
+technique,f1_macro_mean,f1_macro_std,folds_completed,status
+"Classical ML
+(TF-IDF+SVM)",0.7766,0.0062,5/5,genuine
+"Embedding k-NN
+(MiniLM)",0.4451,0.0108,5/5,genuine
+"LoRA Fine-tuning
+(abandoned)",0.02020631778031476,0.0023595475705033516,3/5,abandoned — not a CV-5 estimate

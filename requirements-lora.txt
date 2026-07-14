@@ -1,0 +1,29 @@
+# ============================================================================
+#  LoRA fine-tuning stack (GPU) — required ONLY for the Track B LoRA technique
+#  (src/lora/). This needs an NVIDIA GPU with a matching CUDA build of PyTorch.
+#
+#  Install (after the core requirements):
+#      pip install -r requirements.txt
+#      pip install -r requirements-lora.txt
+#
+#  IMPORTANT — do NOT assume a CUDA version. Install the PyTorch build that
+#  matches your GPU/driver by following https://pytorch.org/get-started/locally/
+#  before installing bitsandbytes. `bitsandbytes` provides the 4-bit (QLoRA)
+#  quantisation used by config.yaml (load_in_4bit: true) and requires a
+#  CUDA-capable NVIDIA GPU; it does not work on CPU-only machines.
+# ============================================================================
+
+-r requirements.txt
+
+torch>=2.2                 # install the CUDA build matching your GPU (see note above)
+transformers>=4.49.0       # 4.49+ ships Qwen2.5 / Qwen2.5-VL
+peft>=0.14.0               # LoRA adapters
+accelerate>=1.2.0
+datasets>=3.2.0
+bitsandbytes>=0.45.0       # 4-bit QLoRA quantisation — NVIDIA GPU only
+
+# Only needed if you switch config.yaml to the multimodal Qwen2.5-VL base:
+qwen-vl-utils>=0.0.8
+
+# Optional: GPU utilisation/VRAM monitoring (src/monitoring/)
+nvidia-ml-py>=12.535.77
